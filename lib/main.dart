@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final _pageController = PageController(viewportFraction: 0.35);
+  final _pageController = PageController(viewportFraction: 0.30);
   double _currentPage = 0.0;
 
   void _pageScrollListener() {
